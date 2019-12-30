@@ -407,7 +407,7 @@ function _ReadAnimationBlock(artboard, reader)
 								const point = path._Points[j];
 
 								const posX = propertyReader.readFloat32("translationX");
-								const posY = propertyReader.readFloat32("translationX");
+								const posY = propertyReader.readFloat32("translationY");
 								points.push(posX, posY);
 
 								if (point.constructor === StraightPathPoint)
